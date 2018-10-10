@@ -5,7 +5,7 @@ class PersonController < ApplicationController
 
   def create    
     Person.create(person_params)
-    redirect_to people_path
+    redirect_to person_path
   end
 
   def index
